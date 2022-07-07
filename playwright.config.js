@@ -1,12 +1,10 @@
 // @ts-check
 const { devices } = require('@playwright/test');
-
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
 // require('dotenv').config();
-
 
 /**
  * @see https://playwright.dev/docs/test-configuration
@@ -14,13 +12,8 @@ const { devices } = require('@playwright/test');
  */
 const config = {
   testDir: './tests',
-  /* Maximum time one test can run for. */
   timeout: 60 * 1000,
   expect: {
-    /**
-     * Maximum time expect() should wait for the condition to be met.
-     * For example in `await expect(locator).toHaveText();`
-     */
     timeout: 10000
   },
   /* Run tests in files in parallel */
@@ -39,7 +32,6 @@ const config = {
     actionTimeout: 0,
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://localhost:3000',
-
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
   },
@@ -55,7 +47,6 @@ const config = {
         ...devices['Desktop Chrome'],
       },
     },
-
     {
       name: 'firefox',
       use: {
@@ -65,7 +56,6 @@ const config = {
         ...devices['Desktop Firefox'],
       },
     },
-
     {
       name: 'webkit',
       use: {
