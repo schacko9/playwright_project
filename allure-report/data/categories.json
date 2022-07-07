@@ -1,0 +1,140 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBeFalsy()\n\nReceived: true",
+      "children" : [ {
+        "name" : "Creating Order: Deleting Order  -- @Regression",
+        "uid" : "65685d71693046f2",
+        "parentUid" : "e6c951579fbea752e8426ec6705e6a7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657149072748,
+          "stop" : 1657149111793,
+          "duration" : 39045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Creating Order: Deleting Order  -- @Regression",
+        "uid" : "1999d8044d79d89c",
+        "parentUid" : "e6c951579fbea752e8426ec6705e6a7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1657149108231,
+          "stop" : 1657149164173,
+          "duration" : 55942
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6c951579fbea752e8426ec6705e6a7a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 60000ms exceeded.",
+      "children" : [ {
+        "name" : "Add to Cart: Remove from Cart  -- @Regression",
+        "uid" : "11b16220ec708143",
+        "parentUid" : "a2f973c322d5fd4685ee76d88c1d398e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657149113569,
+          "stop" : 1657149181051,
+          "duration" : 67482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add to Cart -- @Smoke @Regression ",
+        "uid" : "6505a9b6d2842622",
+        "parentUid" : "a2f973c322d5fd4685ee76d88c1d398e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657149130096,
+          "stop" : 1657149197701,
+          "duration" : 67605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add to Cart: Remove from Cart  -- @Regression",
+        "uid" : "f9f2b57707f61a2e",
+        "parentUid" : "a2f973c322d5fd4685ee76d88c1d398e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657149132171,
+          "stop" : 1657149198331,
+          "duration" : 66160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Creating Order: Deleting Order  -- @Regression",
+        "uid" : "a515795affaa700c",
+        "parentUid" : "a2f973c322d5fd4685ee76d88c1d398e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657149179146,
+          "stop" : 1657149241698,
+          "duration" : 62552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add to Cart: Remove from Cart  -- @Regression",
+        "uid" : "6ce411a40b26dcf1",
+        "parentUid" : "a2f973c322d5fd4685ee76d88c1d398e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1657149195028,
+          "stop" : 1657149256246,
+          "duration" : 61218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2f973c322d5fd4685ee76d88c1d398e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

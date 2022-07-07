@@ -1,0 +1,522 @@
+{
+  "webkit API.spec.js Security Test: Removing all Order Data  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70568b934aaafeea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149166397,
+        "stop" : 1657149196952,
+        "duration" : 30555
+      }
+    } ]
+  },
+  "chromium API.spec.js Creating Order: Blocking Image Load -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b0446bd24d31092",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149023732,
+        "stop" : 1657149063879,
+        "duration" : 40147
+      }
+    } ]
+  },
+  "webkit API.spec.js Creating Order:  -- @Smoke @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9ecc55b0bc1acac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149131441,
+        "stop" : 1657149166393,
+        "duration" : 34952
+      }
+    } ]
+  },
+  "firefox API.spec.js Creating Order: Blocking Image Load -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "283ff83ca9b7a84a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149065007,
+        "stop" : 1657149107504,
+        "duration" : 42497
+      }
+    } ]
+  },
+  "chromium API.spec.js Security Test: Products Dislayed Alteration  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b95dfe935bf79b46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149023687,
+        "stop" : 1657149062885,
+        "duration" : 39198
+      }
+    } ]
+  },
+  "chromium API.spec.js Creating Order: Deleting Order  -- @Regression" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65685d71693046f2",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeFalsy()\n\nReceived: true",
+      "time" : {
+        "start" : 1657149072748,
+        "stop" : 1657149111793,
+        "duration" : 39045
+      }
+    } ]
+  },
+  "firefox API.spec.js Creating Order: Deleting Order  -- @Regression" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1999d8044d79d89c",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeFalsy()\n\nReceived: true",
+      "time" : {
+        "start" : 1657149108231,
+        "stop" : 1657149164173,
+        "duration" : 55942
+      }
+    } ]
+  },
+  "webkit API.spec.js Security Test: Altering Order Data  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "632d7b01e6e6d8e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149167937,
+        "stop" : 1657149192143,
+        "duration" : 24206
+      }
+    } ]
+  },
+  "chromium API.spec.js Creating Order:  -- @Smoke @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6447be1d08cc2f07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149023627,
+        "stop" : 1657149062352,
+        "duration" : 38725
+      }
+    } ]
+  },
+  "firefox API.spec.js Add to Cart -- @Smoke @Regression " : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6505a9b6d2842622",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded.",
+      "time" : {
+        "start" : 1657149130096,
+        "stop" : 1657149197701,
+        "duration" : 67605
+      }
+    } ]
+  },
+  "webkit API.spec.js Security Test: Products Dislayed Alteration  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59174b1979d63511",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149165921,
+        "stop" : 1657149204620,
+        "duration" : 38699
+      }
+    } ]
+  },
+  "webkit API.spec.js Add to Cart -- @Smoke @Regression " : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f7b90a09295dc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149184058,
+        "stop" : 1657149218583,
+        "duration" : 34525
+      }
+    } ]
+  },
+  "firefox API.spec.js Security Test: Products Dislayed Alteration  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acfbb53d86b352c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149077560,
+        "stop" : 1657149125658,
+        "duration" : 48098
+      }
+    } ]
+  },
+  "webkit API.spec.js Creating Order: Deleting Order  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a515795affaa700c",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded.",
+      "time" : {
+        "start" : 1657149179146,
+        "stop" : 1657149241698,
+        "duration" : 62552
+      }
+    } ]
+  },
+  "firefox API.spec.js Security Test: Altering Order Data  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9cdb77f16ec224a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149107508,
+        "stop" : 1657149139206,
+        "duration" : 31698
+      }
+    } ]
+  },
+  "chromium API.spec.js Add to Cart: Remove from Cart  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11b16220ec708143",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded.",
+      "time" : {
+        "start" : 1657149113569,
+        "stop" : 1657149181051,
+        "duration" : 67482
+      }
+    } ]
+  },
+  "chromium API.spec.js Security Test: Altering Order Data  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22d98a3140074b8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149023683,
+        "stop" : 1657149067817,
+        "duration" : 44134
+      }
+    } ]
+  },
+  "firefox API.spec.js Add to Cart: Remove from Cart  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9f2b57707f61a2e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded.",
+      "time" : {
+        "start" : 1657149132171,
+        "stop" : 1657149198331,
+        "duration" : 66160
+      }
+    } ]
+  },
+  "firefox API.spec.js Security Test: Removing all Order Data  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dcc2ef2e99c6540a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149100101,
+        "stop" : 1657149127600,
+        "duration" : 27499
+      }
+    } ]
+  },
+  "chromium API.spec.js Login Test -- @Smoke @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa1fb7fa8fab821",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149090276,
+        "stop" : 1657149118612,
+        "duration" : 28336
+      }
+    } ]
+  },
+  "chromium API.spec.js Add to Cart -- @Smoke @Regression " : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59c6e857cf3e8ceb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149109528,
+        "stop" : 1657149166860,
+        "duration" : 57332
+      }
+    } ]
+  },
+  "firefox API.spec.js Login Test -- @Smoke @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6016408e20480fe7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149023645,
+        "stop" : 1657149059991,
+        "duration" : 36346
+      }
+    } ]
+  },
+  "webkit API.spec.js Login Test -- @Smoke @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc13e336531f1754",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149113614,
+        "stop" : 1657149147628,
+        "duration" : 34014
+      }
+    } ]
+  },
+  "webkit API.spec.js Add to Cart: Remove from Cart  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ce411a40b26dcf1",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded.",
+      "time" : {
+        "start" : 1657149195028,
+        "stop" : 1657149256246,
+        "duration" : 61218
+      }
+    } ]
+  },
+  "firefox API.spec.js Creating Order:  -- @Smoke @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ab5355d2ee6695a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149065004,
+        "stop" : 1657149100006,
+        "duration" : 35002
+      }
+    } ]
+  },
+  "webkit API.spec.js Creating Order: Blocking Image Load -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18b6bd95cc32a7a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149209359,
+        "stop" : 1657149242450,
+        "duration" : 33091
+      }
+    } ]
+  },
+  "chromium API.spec.js Security Test: Removing all Order Data  -- @Regression" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f7edb9ce724169c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657149023654,
+        "stop" : 1657149075755,
+        "duration" : 52101
+      }
+    } ]
+  }
+}

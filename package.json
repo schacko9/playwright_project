@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "Smoke": "npx playwright test --grep @Smoke --reporter=line,allure-playwright",
+    "Regression": "npx playwright test --grep @Regression --reporter=line,allure-playwright",
+    "SmokeChrome": "npx playwright test --grep @Smoke --config playwright.config2.js --project=chrome --reporter=line,allure-playwright",
+    "RegressionChrome": "npx playwright test --grep @Regression  --config playwright.config2.js --project=chrome --reporter=line,allure-playwright",
+    "Allure": "allure generate ./allure-results --clean && allure open ./allure-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.23.1"
+    "@playwright/test": "^1.23.1",
+    "allure-playwright": "^2.0.0-beta.18"
   }
 }
